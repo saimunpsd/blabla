@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: #5A1BFF;
+    padding: 20px 70px;
+    min-height: 790px;
+     
+}
+.nav-manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.nav-link li{
+    display: inline-block;
+     margin-left: 20px;
+}
+.nav-link li a{
+    color: #D7D7D9;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-link li a:hover,
+.subscribe .sus_btn:hover{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+.subscribe i{
+    color: #D7D7D9;
+    margin-right: 10px;
+}
+.subscribe .sus_btn{
+    color: #D7D7D9;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.hero-left h2{
+    color: #ffff;
+    font-size: 90px;
+    line-height: 108px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+}
+.hero-left h2 span{
+    color: #5A1BFF;
+    z-index: 2;
+    position: relative;
+    
+  
+}
+.hero-right p{
+    color:#D7D7D9;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.men{
+    text-align: right;
+}
+.hero-right{
+    padding-left: 20px;
+    padding-left: 50px;
+}
+.podcast {
+    position: absolute;
+    z-index: 1;
+    top: 388px;
+    left: 52px;
+}
+.lis-btn{
+    color:#0000;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    border: 2px solid #FBB501;
+    position: absolute;
+    
+}
+.border_top{
+    text-align: center;
+    margin-top: -200px;
+}
+.about-des h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size:58px;
+    line-height: 70px;
+    color: #01010D;
+    font-weight: bolder;
+}
+.about{
+     padding: 60px 0;
+}
+.about-des p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size:16px;
+    line-height: 30px;
+    color: #4D4D56;
+    font-weight: 400;
+}
+.podcast_slide{
+    margin-top: 60px;
+}
+ .podcast_slide h4{
+    /* padding: 30px; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size:24px;
+    line-height: 32px;
+    color: #01010D;
+    font-weight: 600;
+ }
+ .about_total{
+    align-items: center;
+ }
+ .poscast-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
